@@ -7,5 +7,7 @@ To start this repository run
 to install the dependencies and then either
 `npm run dev`
 to start the dev build or
+`npm run build`
+and
 `npm run preview`
 to start a production preview.

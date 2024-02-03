@@ -19,7 +19,7 @@ export const Fact: React.FC<FactProps> = ({ fact }) => {
 					isFav ? removeFromFavorites(fact) : addToFavorites(fact)
 				}
 			>
-				{isFav ? "REMOVE" : "ADD"}
+				{isFav ? "REMOVE FROM FAVORITES" : "ADD TO FAVORITES"}
 			</button>
 		</div>
 	);
